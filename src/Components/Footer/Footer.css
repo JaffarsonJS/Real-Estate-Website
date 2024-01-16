@@ -1,0 +1,16 @@
+.f-wrapper {
+  background-color: rgb(231, 231, 231);
+}
+.f-container {
+  justify-content: space-between;
+}
+
+
+@media(max-width: 780px) {
+  .f-container{
+    justify-content: center;
+  }
+  .f-container>div{
+    align-items: center;
+  }
+}
